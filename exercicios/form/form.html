@@ -9,7 +9,30 @@
 
 
 <form >
-    <input type="text" name="nome">
-    <input type="text">
-    <input type="password" name="senha">
+    <input type="text" name="nome">      <br>
+    <input type="password" name="senha"> <br>
+    <textarea name="bop" cols="30" rows="10"></textarea>
+    <div>
+        <input type="radio" name="tipo" value="Administrador"> Administrador
+        <input type="radio" name="tipo" value="Estudante"> Estudante
+        <input type="radio" name="tipo" value="Professor"> Professor
+    </div>
+
+    <div>
+        <input type="checkbox" name="check" value="Estudatente"> Estudante
+        <input type="checkbox" name="check" value="Funcionario"> Funcionario
+    </div>
+
+    <select name="estado">
+        <option value="">Selecione</option>
+        <option value="AC">Acre</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="SP">São Paulo</option>
+        <option value="GO">Goiais</option>
+    </select>
+
+    <input type="submit" value="Salvar">
+    <input type="hidden" name="Oculto">
+
+
 </form>

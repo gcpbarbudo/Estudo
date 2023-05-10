@@ -1,0 +1,19 @@
+    <!-- controls - Adiciona o controle de play e pause no video -->
+    <!-- autoplay - O video inicia automaticamente após aberto a guia -->
+    <!-- controlList="nodowload" - Retira a opção de baixar o vídeo -->
+
+<video id="MeuVideo" width="800" height="450" controls autoplay controlList="nodowload">
+    <source src = "/Video/teste.mp4" type="video/mp4">
+</video>
+
+
+<!-- Base para criação do botão de play e pause do video -->
+<div wm_progresso="MeuVideo" class="progresso">
+    <div></div>
+</div>
+
+<div>
+    <button wm-play="MeuVideo">Play</button>
+    <button wm-pause="MeuVideo">Pause</button>
+</div>
+
