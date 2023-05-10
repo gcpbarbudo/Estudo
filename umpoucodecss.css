@@ -1,0 +1,18 @@
+h1 {
+    font-size: 20px;
+}
+.FundoVermelho {
+    background-color: #c00;
+    
+}
+
+.Negrito {
+    font-weight: bold;
+}
+
+#TextoPrincipal {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #444;
+}

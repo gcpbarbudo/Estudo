@@ -1,0 +1,67 @@
+<!-- caption titulo -->
+<!-- <tr> Linha na tabela [Table Row] -->
+<!-- <td> Dado da tabela [Table Date] -->
+<!-- colspan mescla a linha -->
+<!-- rowspan mescla a coluna -->
+
+<table>
+    <caption>Produtos</caption>
+    <thead>
+         <tr>
+            <th>Produto</th>
+            <th>Preco</th>
+            <th>Quantidade</th>
+            <th>Total</th>
+         </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Celular</td>
+            <td>2500,00</td>
+            <td>3</td>
+            <td>7500,00</td>
+        </tr>
+        <tr>
+            <td>Drone</td>
+            <td>500,00</td>
+            <td>5</td>
+            <td>2500,00</td>
+
+        </tr>
+    <tfoot>
+        <tr>
+            <td colspan="3"> Total</td> </td>
+            <td>10.000</td>
+        </tr>
+    </tfoot>
+        </tbody>
+</table>
+
+<style>
+
+    /* Não ter borda */
+    table {
+        border-collapse: collapse;
+    }
+
+    /* Deixa a tabela mais larga */
+    th, td {
+        padding: 10px; 
+    }
+    
+    /* Colocar uma borda da parte debaixo do titulo da tabela */
+    thead tr {
+        border-bottom: solid 3px #444; 
+    }
+    
+    /* Quando o clique do mouse passar por cima da linha */
+    tbody tr:hover {
+        background-color: #dedede ;
+    }
+    /* Destaca o total */
+    tfoot {
+        background-color: #444;
+        color: #fff;
+        font-weight: bold;
+    }
+</style>
