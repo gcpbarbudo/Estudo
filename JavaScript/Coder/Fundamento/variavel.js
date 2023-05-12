@@ -19,3 +19,4 @@ console.log('-------------------------------')
 const nome = 'Guilherme'
 const templete = `Olá ${nome}`
 console.log(templete)
+console.log('-------------------------------')

@@ -14,6 +14,6 @@ console.log(valores.length)
 valores.push('teste')
 console.log(valores[6])
 
-
+//Deletar dados array
 delete valores[0]
 console.log(valores)
