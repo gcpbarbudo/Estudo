@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Entendendo jQuery</title>
+    <link rel='stylesheet' href='css/estilo.css'>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+</head>
+
+<body class="conteudo exercicio">
+    <h1>Entendendo jQuery</h1>
+    <div>1</div>
+    <div>2</div>
+
+    <script>
+        for(i = 0; i < 100;i++){
+        $('div').hide(2000).show(2000).fadeOut(2000).fadeIn(2000)
+        }
+        console.log($('div').get(0))
+
+        $.fn.FundoVerde = function () {
+            this.css('background-color', 'green')
+            return this
+        }
+
+        $('body').FundoVerde()
+
+    </script>
+</body>
+
+
+
