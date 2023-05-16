@@ -17,6 +17,14 @@
     <p class='numero'>5</p>
 
     <script>
-        // ...
+    
+    $('#div2').after('Antes 2')
+    $('#div2').before('Depois 2')
+    $('<p> Antes 3 </p>').insertAfter('#div3')
+    // $('<p> Depois 3 </p>').insertBefore('#dev3')
+    // $('<div>Sub</div>').replaceAll('body > p')
+    $('body > p').replaceWith(function(){
+        return $('<div>').html($(this)).html
+    })
     </script>
 </body>
