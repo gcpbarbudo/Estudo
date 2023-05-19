@@ -74,6 +74,9 @@ body{
 
 .modulo {
     flex-basis: 32%;
+    margin-bottom: 20px ;
+    border-radius: 5px;
+    border: 2px solid #1867c0;
 
 }
 

@@ -16,12 +16,13 @@
         <div class="conteudo">
             <nav class="modulos">
                 <?php
+                
                 for($c=1;$c<=9; $c++){    
                     echo "
                     <div class='modulo'>
                         <h3>Módulo $c</h3>
                         <ul>
-                            <li><a href='#'>Exercicio A</a></li>
+                            <li><a href='exercicio.php'>Exercicio A</a></li>
                             <li><a href='#'>Exercicio B</a></li>
                             <li><a href='#'>Exercicio C</a></li>
                         </ul>
