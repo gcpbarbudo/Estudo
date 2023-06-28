@@ -1,0 +1,82 @@
+h1, h2, p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h1 {
+    color: #1d1d1d;
+    margin-bottom: 5px;
+}
+
+.secao h2 {
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+
+p {
+    margin-top: 0px 10px 0px 10px;
+}
+
+.secao {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.cabecalho {
+
+    background-color: #b0ddfc;
+}
+
+.cabecalho img {
+    width: 160px;
+}
+
+.cabecalho p a {
+    font-size: 20px;
+    color: #0b639e;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+.secao p span {
+    font-weight: bold;
+}
+
+.secao p {
+    padding: 0px 10px;
+}
+
+.secao .imovel-assinatura {
+    width: 450px;
+}
+
+.paragrafo {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+    margin: 10px auto;
+    width: 980px;
+}
+
+.azul {
+    border-radius: 10px;
+    background-color: #1d80c1;
+    color: #fff;
+}
+
+.texto-amarelo {
+    color: #ecfa3f;
+}
+
+.texto-azul {
+    color: #1d80c1;
+}
+
+.fundo-preto {
+    color: #fff;
+    background-color: #1d1d1d;
+    border-radius: 7px;
+    padding: 20px 0px 20px 0px;
+
+}
