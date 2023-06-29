@@ -1,4 +1,8 @@
-h1, h2, p {
+body {
+    margin: 0;
+}
+
+h1, h2, p, ul li {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
@@ -8,12 +12,6 @@ h1 {
     margin-bottom: 5px;
 }
 
-.secao h2 {
-    margin-top: 0px;
-    font-weight: normal;
-}
-
-
 p {
     margin-top: 0px 10px 0px 10px;
 }
@@ -21,10 +19,28 @@ p {
 .secao {
     margin-top: 50px;
     text-align: center;
+    padding-bottom: 30px;
+}
+
+.secao h2 {
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+.secao p span, .fundo-azul h2, .texto-azul h2 {
+    font-weight: bold;
+}
+
+.secao p {
+    padding: 0px 10px;
+}
+
+.secao .imovel-assinatura {
+    width: 450px;
 }
 
 .cabecalho {
-
+    margin: 0;
     background-color: #b0ddfc;
 }
 
@@ -39,18 +55,6 @@ p {
     text-decoration: none;
 }
 
-.secao p span {
-    font-weight: bold;
-}
-
-.secao p {
-    padding: 0px 10px;
-}
-
-.secao .imovel-assinatura {
-    width: 450px;
-}
-
 .paragrafo {
     font-size: 18px;
     line-height: 28px;
@@ -59,10 +63,31 @@ p {
     width: 980px;
 }
 
-.azul {
-    border-radius: 10px;
+.fundo-azul {
     background-color: #1d80c1;
-    color: #fff;
+}
+
+/* .fundo-azul-escuro p {
+    line-height: 42px;
+    font-size: 20px;
+    text-align: center;
+    width: 700px;
+} */
+
+.fundo-azul ul {
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+    margin: 0 auto;
+    width: 135px;
+}
+
+
+.fundo-preto {
+    background-color: #1d1d1d;
+    border-radius: 7px;
+    padding: 20px 0px 20px 0px;
+
 }
 
 .texto-amarelo {
@@ -73,10 +98,6 @@ p {
     color: #1d80c1;
 }
 
-.fundo-preto {
+.texto-branco {
     color: #fff;
-    background-color: #1d1d1d;
-    border-radius: 7px;
-    padding: 20px 0px 20px 0px;
-
 }
