@@ -27,7 +27,7 @@ p {
     font-weight: normal;
 }
 
-.secao p span, .fundo-azul h2, .texto-azul h2 {
+.secao p span, .fundo-azul h2, .secao h2 {
     font-weight: bold;
 }
 
@@ -67,21 +67,19 @@ p {
     background-color: #1d80c1;
 }
 
-/* .fundo-azul-escuro p {
-    line-height: 42px;
-    font-size: 20px;
-    text-align: center;
-    width: 700px;
-} */
-
+.links li {
+    text-decoration: none;
+    color: #fff;
+    width: 250px;    
+        
+} 
 .fundo-azul ul {
     font-size: 20px;
     line-height: 25px;
     text-align: left;
     margin: 0 auto;
-    width: 135px;
+    width: 100px;
 }
-
 
 .fundo-preto {
     background-color: #1d1d1d;
