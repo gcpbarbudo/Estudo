@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+.secao-topo {
+    border-bottom: 1px solid #d5d5d5;
+
+}
+
+.secao-topo p {
+    padding: 20px ;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.secao-largura-limitada {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.secao-background-capa {
+    min-height: 500px;
+    background-image: url(../img/capa.jpg);
+    background-size: cover;
+}
+
+.secao-background-conteudo {
+    text-align: right;
+    padding: 50px 20px;
+}
+
