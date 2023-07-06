@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+}
+
+.topo {
+    background-image: url(../img/capa.jpg);
+    height: 800px;
+}
+
+.meio {
+    background-image: url(../img/img1.jpg);
+    height: 200px;
+}
+
+.topo h1, h2 {
+    margin: 0 auto;
+    padding: 10px;
+    color: #fff;
+    width: 300px;
+}
+
+.topo h1 {
+    background-color: #000;
+}
+
+.topo h2 {
+    background-color: #f00;
+}
+
+.secao-informacao {
+    margin: 80px 400px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.secao-informacao span {
+    font-weight: bold;
+}
+
+.foco {
+    padding: 10px;
+    background-color: #f00;
+    color: #fff;
+
+}
+
